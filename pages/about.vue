@@ -39,35 +39,19 @@
           loading="lazy"
         />
       </div>
-      <div
-  class="flex flex-wrap justify-center gap-8 mt-16"
-  aria-label="Tombol unduh CV, Figma, dan LinkedIn"
->
-  <!-- Tombol LinkedIn -->
-  <a
-    href="https://linkedin.com/in/Farhan"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="px-10 py-3 border-2 border-blue-600 text-blue-600 rounded-full font-semibold shadow hover:bg-blue-50 transition transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-blue-300"
-    tabindex="0"
-    aria-label="Kunjungi profil LinkedIn Farhan"
-  >
-    LinkedIn
-  </a>
-
-  <!-- Tombol Figma -->
-  <a
-    href="https://www.figma.com/files/team/1280427529740062167/recents-and-sharing?fuid=1280427525990563829"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="px-10 py-3 border-2 border-pink-600 text-pink-600 rounded-full font-semibold shadow hover:bg-pink-50 transition transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-pink-300"
-    tabindex="0"
-    aria-label="Lihat desain Figma Farhan"
-  >
-    Figma
-  </a>
-</div>
-</div>
+      <div class="flex-1 space-y-8 text-gray-700 text-lg leading-relaxed animate-fade-slide-up delay-200">
+        <p tabindex="0">
+          Saya sedang menempuh pendidikan di Politeknik Negeri Padang, fokus pada
+          pengembangan teknologi yang berdampak nyata. Selain programming,
+          saya juga mendalami desain antarmuka dan pengalaman pengguna agar aplikasi
+          yang saya buat mudah digunakan dan menarik.
+        </p>
+        <p tabindex="0">
+          Dalam berbagai proyek, saya berkontribusi dengan membuat solusi inovatif,
+          seperti deteksi kesegaran ikan berbasis citra dan game tradisional budaya lokal.
+        </p>
+      </div>
+    </div>
 
     <!-- Cards Keahlian -->
     <div
@@ -134,6 +118,16 @@
         aria-label="Kunjungi profil LinkedIn Farhan"
       >
         LinkedIn
+      </a>
+      <a
+        href="https://www.figma.com/files/team/1280427529740062167/recents-and-sharing?fuid=1280427525990563829"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="px-10 py-3 border-2 border-blue-600 text-blue-600 rounded-full font-semibold shadow hover:bg-blue-50 transition transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-blue-300"
+        tabindex="0"
+        aria-label="Kunjungi  figma "
+      >
+        figma
       </a>
     </div>
   </section>
