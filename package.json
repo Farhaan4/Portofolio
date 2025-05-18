@@ -1,0 +1,22 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "nuxt start"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16",
+    "autoprefixer": "^10.4.0",
+    "nuxt": "^3.0.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.0.0"
+  },
+  "dependencies": {
+    "@iconify/vue": "^5.0.0",
+    "@nuxt/icon": "^1.12.0"
+  }
+}

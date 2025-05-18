@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-glow {
+  @apply px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full shadow-lg transition transform hover:scale-105 hover:shadow-xl;
+}
+
+.btn-outline-glow {
+  @apply px-6 py-3 border border-blue-600 text-blue-600 hover:bg-blue-100 font-semibold rounded-full shadow-md transition transform hover:scale-105;
+}
