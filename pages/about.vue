@@ -33,7 +33,7 @@
         aria-label="Foto Farhan"
       >
         <img
-          src="/assets/images/profil.jpg"
+          src="/assets/images/abcd.jpg"
           alt="Foto Farhan"
           class="w-full h-full object-cover"
           loading="lazy"
@@ -97,9 +97,9 @@
       class="flex justify-center gap-8 mt-16"
       aria-label="Tombol unduh CV dan LinkedIn"
     >
-<!--
+
 <a
-  href="/files/CV_Farhan.pdf"
+  href="/files/cvfarhann.pdf"
   download
   class="px-10 py-3 bg-blue-600 text-white rounded-full font-semibold shadow-lg hover:shadow-xl hover:bg-blue-700 transition transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-blue-300"
   tabindex="0"
@@ -107,7 +107,7 @@
 >
   Unduh CV
 </a>
--->
+
 
       <a
         href="https://linkedin.com/in/Farhan ."
@@ -129,6 +129,7 @@
       >
         figma
       </a>
+      
     </div>
   </section>
 </template>
