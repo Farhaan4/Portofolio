@@ -8,11 +8,13 @@
           Hai, Saya <span class="text-blue-600">Farhan</span> 👋
         </h1>
         <p class="text-lg md:text-xl text-gray-600 max-w-xl">
-          Saya seorang <span class="text-blue-600 font-semibold">Web & Mobile Developer</span> yang bersemangat membangun produk digital yang berdampak.
+          Saya seorang <span class="text-blue-600 font-semibold">Software Developer, UI/UX Designer & ML Enthusiast 
+            
+          </span> yang bersemangat membangun produk digital yang berdampak.
         </p>
 
         <div class="text-xl font-mono text-blue-500 animate-typing border-r-4 border-blue-600 w-max whitespace-nowrap overflow-hidden">
-          Coding • UI/UX • Mobile • Backend
+          Coding • UI/UX • Mobile • Website • Design 
         </div>
 
         <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-6">
