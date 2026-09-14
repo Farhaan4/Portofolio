@@ -102,7 +102,7 @@
 import { reactive } from "vue"
 
 // Import gambar lokal
-import ikan1 from '/assets/images/LogoIkan.png'
+import ikan1 from '@/assets/images/logoIkan.png'
 import ikan2 from '@/assets/images/homeikan.jpg'
 import pacu1 from '@/assets/images/Game_Logo_Final.png'
 import pacu2 from '@/assets/images/GameVisual.png'
@@ -118,6 +118,14 @@ import gojek2 from '@/assets/images/gojek2.jpg'
 import gojek3 from '@/assets/images/gojek3.jpg'
 import babel1 from '@/assets/images/babel2.jpg'
 import babel2 from '@/assets/images/babelsphere.jpg'
+import AS2 from '@/assets/images/AS2.png'
+import AS1 from '@/assets/images/AS1.png'
+import undangan1 from '@/assets/images/undangan1.png'
+import undangan2 from '@/assets/images/undangan2.png'
+import undangan3 from '@/assets/images/undangan3.png'
+import undangan4 from '@/assets/images/undangan4.png'
+import undangan5 from '@/assets/images/undangan5.png'
+
 
 
 const projects = [
@@ -195,7 +203,33 @@ const projects = [
     screenshots: [babel1, babel2, ],
     link: "#babelsphere--figma",
   },
-  // Tambahkan proyek lain seperti sebelumnya
+
+{
+  title: "Website Undangan Digital",
+  description: "Desain UI/UX aplikasi pembelajaran bahasa asing yang interaktif dan modern.",
+  longDescription: "BabelSphere adalah konsep aplikasi mobile yang dirancang untuk membantu pengguna belajar berbagai bahasa asing dengan metode interaktif. Proyek ini dikembangkan sebagai bagian dari tugas mata kuliah Entrepreneurship, dan fokus pada desain antarmuka dan alur pengguna menggunakan Figma, tanpa implementasi aplikasi nyata.",
+  features: [
+    "Desain interaktif dengan Figma untuk pembelajaran bahasa asing",
+    "Alur pengguna yang jelas mulai dari pemilihan bahasa hingga latihan harian",
+    "Tampilan modern dengan pendekatan gamifikasi untuk meningkatkan keterlibatan pengguna",
+  ],
+    screenshots: [undangan1, undangan2, undangan3, undangan4, undangan5],
+    link: "#undangan-digital-figma",
+  },
+
+  {
+  title: "Website marketing untuk pt adi sanggoro",
+  description: "Desain UI/UX aplikasi pembelajaran bahasa asing yang interaktif dan modern.",
+  longDescription: "BabelSphere adalah konsep aplikasi mobile yang dirancang untuk membantu pengguna belajar berbagai bahasa asing dengan metode interaktif. Proyek ini dikembangkan sebagai bagian dari tugas mata kuliah Entrepreneurship, dan fokus pada desain antarmuka dan alur pengguna menggunakan Figma, tanpa implementasi aplikasi nyata.",
+  features: [
+    "Desain interaktif dengan Figma untuk pembelajaran bahasa asing",
+    "Alur pengguna yang jelas mulai dari pemilihan bahasa hingga latihan harian",
+    "Tampilan modern dengan pendekatan gamifikasi untuk meningkatkan keterlibatan pengguna",
+  ],
+    screenshots: [AS1, AS2, ],
+    link: "#adi-sanggoro-figma",
+  },
+  // Tambahkan proyek lain seperti sebelumnyaaaa
 ]
 
 const currentScreenshot = reactive(

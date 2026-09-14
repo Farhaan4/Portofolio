@@ -33,7 +33,9 @@
           <img
             :src="foto"
             alt="Foto Profil"
-            class="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-blue-500 shadow-2xl transform group-hover:scale-110 transition duration-700"
+            class="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full 
+            border-4 border-blue-500 shadow-2xl transform group-hover:scale-110 transition 
+            duration-700"
           />
           <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 bg-white text-blue-600 px-4 py-1 rounded-full shadow-md text-sm font-semibold opacity-0 group-hover:opacity-100 transition duration-700">
             🌟 Tersedia untuk Freelance
@@ -45,7 +47,7 @@
 </template>
 
 <script setup>
-import foto from '~/assets/images/profil.jpg' // Pastikan path gambar sudah benar
+import foto from '~/assets/images/profil2.png' // Pastikan path gambar sudah benar
 </script>
 
 <style scoped>
