@@ -5,7 +5,7 @@
       <!-- Teks -->
       <div class="text-center md:text-left space-y-6 flex-1">
         <h1 class="text-4xl md:text-6xl font-extrabold text-gray-800 leading-tight tracking-tight">
-          Hai, Saya <span class="text-blue-600">Farhan</span> 👋
+          Hai, Saya <span class="text-blue-600">Han</span> 👋
         </h1>
         <p class="text-lg md:text-xl text-gray-600 max-w-xl">
           Saya seorang <span class="text-blue-600 font-semibold">Software Developer, UI/UX Designer & ML Enthusiast 
