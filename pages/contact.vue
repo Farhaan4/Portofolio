@@ -3,9 +3,9 @@
     class="min-h-screen bg-gradient-to-br from-blue-100 via-white to-blue-50 flex items-center justify-center px-4 py-16"
   >
     <div
-      class="w-full max-w-4xl bg-white/70 backdrop-blur-md p-10 rounded-3xl shadow-xl animate-fade-in"
+      class="w-full max-w-4xl bg-white/70 backdrop-blur-md p-5 sm:p-10 rounded-2xl sm:rounded-3xl shadow-xl animate-fade-in"
     >
-      <h2 class="text-4xl font-bold text-center text-blue-700 mb-6">Hubungi Saya</h2>
+      <h2 class="text-3xl sm:text-4xl font-bold text-center text-blue-700 mb-6">Hubungi Saya</h2>
 
       <!-- Form -->
       <form class="space-y-5" @submit.prevent="submitForm" novalidate>
@@ -88,7 +88,7 @@
       <!-- Social Media -->
       <div class="mt-10 text-center">
         <p class="text-lg text-gray-700 mb-4">Atau temui saya di platform berikut:</p>
-        <div class="flex justify-center gap-6">
+        <div class="flex flex-wrap justify-center gap-2 sm:gap-6">
           <a
             href="https://github.com/Farhaan4"
             target="_blank"

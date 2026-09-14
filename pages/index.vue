@@ -1,10 +1,10 @@
 <template>
-  <section class="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-100 via-white to-blue-50 px-6 py-20">
-    <div class="max-w-7xl w-full flex flex-col-reverse md:flex-row items-center gap-16 animate-fade-in">
+  <section class="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-100 via-white to-blue-50 px-4 py-12 sm:px-6 sm:py-20">
+    <div class="max-w-7xl w-full flex flex-col-reverse md:flex-row items-center gap-10 sm:gap-16 animate-fade-in">
       
       <!-- Teks -->
       <div class="text-center md:text-left space-y-6 flex-1">
-        <h1 class="text-4xl md:text-6xl font-extrabold text-gray-800 leading-tight tracking-tight">
+        <h1 class="text-3xl sm:text-4xl md:text-6xl font-extrabold text-gray-800 leading-tight tracking-tight">
           Hai, Saya <span class="text-blue-600">Farhan</span> 👋
         </h1>
         <p class="text-lg md:text-xl text-gray-600 max-w-xl">
@@ -13,15 +13,15 @@
           </span> yang bersemangat membangun produk digital yang berdampak.
         </p>
 
-        <div class="text-xl font-mono text-blue-500 animate-typing border-r-4 border-blue-600 w-max whitespace-nowrap overflow-hidden">
+        <div class="max-w-full text-base sm:text-xl font-mono text-blue-500 animate-typing border-r-4 border-blue-600 sm:w-max whitespace-normal sm:whitespace-nowrap overflow-hidden">
           Coding • UI/UX • Mobile • Website • Design 
         </div>
 
         <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-6">
-          <NuxtLink to="/projects">
+          <NuxtLink to="/projects" class="block w-full sm:inline-block sm:w-auto">
             <button class="btn-glow">🚀 Proyek Saya</button>
           </NuxtLink>
-          <NuxtLink to="/contact">
+          <NuxtLink to="/contact" class="block w-full sm:inline-block sm:w-auto">
             <button class="btn-outline-glow">✉️ Hubungi Saya</button>
           </NuxtLink>
         </div>
@@ -33,7 +33,7 @@
           <img
             :src="foto"
             alt="Foto Profil"
-            class="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full 
+            class="w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 object-cover rounded-full 
             border-4 border-blue-500 shadow-2xl transform group-hover:scale-110 transition 
             duration-700"
           />
@@ -76,10 +76,10 @@ import foto from '~/assets/images/profil2.png' // Pastikan path gambar sudah ben
 }
 
 .btn-glow {
-  @apply px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full shadow-lg transition transform hover:scale-105 hover:shadow-xl;
+  @apply w-full sm:w-auto px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full shadow-lg transition transform hover:scale-105 hover:shadow-xl;
 }
 
 .btn-outline-glow {
-  @apply px-6 py-3 border border-blue-600 text-blue-600 hover:bg-blue-100 font-semibold rounded-full shadow-md transition transform hover:scale-105;
+  @apply w-full sm:w-auto px-6 py-3 border border-blue-600 text-blue-600 hover:bg-blue-100 font-semibold rounded-full shadow-md transition transform hover:scale-105;
 }
 </style>

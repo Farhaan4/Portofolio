@@ -1,6 +1,6 @@
 <template>
-  <section class="max-w-7xl mx-auto p-6">
-    <h2 class="text-4xl font-extrabold mb-10 text-center text-blue-700 animate-fade-in">
+  <section class="max-w-7xl mx-auto p-4 sm:p-6">
+    <h2 class="text-3xl sm:text-4xl font-extrabold mb-8 sm:mb-10 text-center text-blue-700 animate-fade-in">
       Proyek Saya
     </h2>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -13,7 +13,7 @@
         @keydown.enter="openProject(project.link)"
         aria-label="Proyek {{ project.title }}"
       >
-        <div class="h-48 overflow-hidden">
+        <div class="h-40 sm:h-48 overflow-hidden">
           <img
             :src="project.screenshots[0]"
             :alt="project.title"
@@ -40,9 +40,9 @@
       v-for="(project, index) in projects"
       :key="'detail-' + index"
       :id="project.link.slice(1)"
-      class="mt-20 p-5 sm:p-8 bg-blue-50 rounded-xl shadow-lg animate-fade-in"
+      class="mt-14 sm:mt-20 p-5 sm:p-8 bg-blue-50 rounded-xl shadow-lg animate-fade-in"
     >
-      <h3 class="text-3xl font-bold mb-6 text-blue-700">{{ project.title }}</h3>
+      <h3 class="text-2xl sm:text-3xl font-bold mb-6 text-blue-700">{{ project.title }}</h3>
 
       <div class="flex flex-col md:flex-row gap-8">
         <!-- Galeri gambar -->
@@ -53,7 +53,7 @@
             class="w-full max-h-[70svh] md:max-h-96 rounded-lg bg-white object-contain shadow-md"
             loading="lazy"
           />
-          <div class="mt-4 flex justify-between w-full px-6">
+          <div class="mt-4 flex justify-between gap-2 w-full px-0 sm:px-6">
             <button
               class="px-4 py-1 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300"
               @click="prevScreenshot(index)"
