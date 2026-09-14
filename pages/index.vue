@@ -38,7 +38,7 @@
             duration-700"
           />
           <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 bg-white text-blue-600 px-4 py-1 rounded-full shadow-md text-sm font-semibold opacity-0 group-hover:opacity-100 transition duration-700">
-            🌟 Tersedia untuk Freelance
+            🌟 Open to Work
           </div>
         </div>
       </div>
