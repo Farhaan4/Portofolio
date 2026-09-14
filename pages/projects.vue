@@ -179,7 +179,7 @@ const projects = [
     link: "#re-design-web-spadati",
   },
   {
-    title: "Replikasi Design Gojek Menggunakan Figma",
+    title: "Replikasi Design Gojek Menggunakan figma",
     description: "Replikasi tampilan aplikasi Gojek menggunakan Figma untuk latihan UI design.",
     longDescription: "Dalam proyek ini, tampilan aplikasi Gojek direplikasi sebagai latihan desain antarmuka. Fokus diberikan pada kesesuaian layout, warna, icon, dan navigasi sesuai aplikasi asli.",
     features: [
