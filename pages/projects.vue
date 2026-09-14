@@ -40,7 +40,7 @@
       v-for="(project, index) in projects"
       :key="'detail-' + index"
       :id="project.link.slice(1)"
-      class="mt-20 p-8 bg-blue-50 rounded-xl shadow-lg animate-fade-in"
+      class="mt-20 p-5 sm:p-8 bg-blue-50 rounded-xl shadow-lg animate-fade-in"
     >
       <h3 class="text-3xl font-bold mb-6 text-blue-700">{{ project.title }}</h3>
 
@@ -50,7 +50,7 @@
           <img
             :src="project.screenshots[currentScreenshot[index]]"
             :alt="`Screenshot ${currentScreenshot[index] + 1} dari ${project.title}`"
-            class="rounded-lg shadow-md object-cover max-h-64 w-full"
+            class="w-full max-h-[70svh] md:max-h-96 rounded-lg bg-white object-contain shadow-md"
             loading="lazy"
           />
           <div class="mt-4 flex justify-between w-full px-6">
@@ -103,7 +103,11 @@ import { reactive } from "vue"
 
 // Import gambar lokal
 import ikan1 from '@/assets/images/logoIkan.png'
-import ikan2 from '@/assets/images/homeikan.jpg'
+import ikan2 from '@/assets/images/home.jpeg'
+import ikan3 from '@/assets/images/result.jpeg'
+import ikan4 from '@/assets/images/history.jpeg'
+import ikan5 from '@/assets/images/resep.jpeg'
+import ikan6 from '@/assets/images/artikel.jpg'
 import pacu1 from '@/assets/images/Game_Logo_Final.png'
 import pacu2 from '@/assets/images/GameVisual.png'
 import pacu3 from '@/assets/images/DisplayGame.jpg'
@@ -136,9 +140,11 @@ const projects = [
   features: [
     "Klasifikasi tingkat kesegaran ikan berdasarkan gambar mata dan insang",
     "Model CNN yang ringan dan akurat untuk kebutuhan mobile",
+    "Integrasi ke dalam aplikasi mobile berbasis Kotlin",
+    "fitur artikel dan resep olahan ikan untuk edukasi pengguna",
     "Fitur riwayat deteksi dengan antarmuka yang sederhana dan intuitif",
   ],
-  screenshots: [ikan1, ikan2],
+  screenshots: [ikan1, ikan2, ikan3, ikan4, ikan5, ikan6],
   link: "#deteksi-kesegaran-ikan",
 },
   {
@@ -206,28 +212,32 @@ const projects = [
 
 {
   title: "Website Undangan Digital",
-  description: "Desain UI/UX aplikasi pembelajaran bahasa asing yang interaktif dan modern.",
-  longDescription: "BabelSphere adalah konsep aplikasi mobile yang dirancang untuk membantu pengguna belajar berbagai bahasa asing dengan metode interaktif. Proyek ini dikembangkan sebagai bagian dari tugas mata kuliah Entrepreneurship, dan fokus pada desain antarmuka dan alur pengguna menggunakan Figma, tanpa implementasi aplikasi nyata.",
-  features: [
-    "Desain interaktif dengan Figma untuk pembelajaran bahasa asing",
-    "Alur pengguna yang jelas mulai dari pemilihan bahasa hingga latihan harian",
-    "Tampilan modern dengan pendekatan gamifikasi untuk meningkatkan keterlibatan pengguna",
-  ],
+  description: "Desain website undangan digital yang elegan, modern, dan responsif untuk menyampaikan informasi acara secara praktis dan menarik.",
+  longDescription: "Website Undangan Digital adalah proyek desain UI/UX yang dibuat untuk menghadirkan undangan acara dalam bentuk website yang modern dan interaktif. Proyek ini dirancang menggunakan Figma dengan memperhatikan tampilan visual, kemudahan navigasi, serta pengalaman pengguna. Website menyediakan berbagai informasi penting seperti detail acara, lokasi, galeri foto, dan informasi lainnya dalam satu halaman yang mudah diakses melalui perangkat desktop maupun mobile.",
+  features: [ "Desain UI/UX modern dan elegan untuk website undangan digital", 
+  "Informasi acara yang tersusun secara jelas dan mudah dinavigasi", 
+  "Desain responsif yang disesuaikan untuk perangkat desktop dan mobile", 
+  "Galeri foto untuk menampilkan dokumentasi atau foto pasangan",
+  "Informasi lokasi dan detail acara yang mudah diakses", 
+  "Prototype interaktif menggunakan Figma untuk mensimulasikan pengalaman pengguna", ],
     screenshots: [undangan1, undangan2, undangan3, undangan4, undangan5],
     link: "#undangan-digital-figma",
   },
 
   {
-  title: "Website marketing untuk pt adi sanggoro",
-  description: "Desain UI/UX aplikasi pembelajaran bahasa asing yang interaktif dan modern.",
-  longDescription: "BabelSphere adalah konsep aplikasi mobile yang dirancang untuk membantu pengguna belajar berbagai bahasa asing dengan metode interaktif. Proyek ini dikembangkan sebagai bagian dari tugas mata kuliah Entrepreneurship, dan fokus pada desain antarmuka dan alur pengguna menggunakan Figma, tanpa implementasi aplikasi nyata.",
-  features: [
-    "Desain interaktif dengan Figma untuk pembelajaran bahasa asing",
-    "Alur pengguna yang jelas mulai dari pemilihan bahasa hingga latihan harian",
-    "Tampilan modern dengan pendekatan gamifikasi untuk meningkatkan keterlibatan pengguna",
-  ],
-    screenshots: [AS1, AS2, ],
-    link: "#adi-sanggoro-figma",
+  title: "Website Marketing untuk PT Adi Sanggoro",
+description: "Website company profile dan marketing untuk PT Adi Sanggoro yang dilengkapi chatbot AI interaktif untuk membantu memberikan informasi mengenai layanan perusahaan.",
+longDescription: "Website PT Adi Sanggoro merupakan proyek pengembangan website company profile dan marketing yang dirancang untuk memperkenalkan layanan AS.NET sebagai penyedia solusi jaringan, internet, IoT, dan teknologi. Website memiliki tampilan modern dan responsif dengan informasi mengenai perusahaan, layanan, klien, serta cakupan bisnis. Selain itu, website dilengkapi fitur AS.NET Assistant, yaitu chatbot interaktif yang membantu pengguna mendapatkan informasi mengenai layanan perusahaan secara lebih cepat dan mudah.",
+features: [
+  "Website company profile modern dan responsif untuk kebutuhan marketing PT Adi Sanggoro",
+  "Informasi layanan perusahaan seperti Internet Service Provider, FTTH, Data Center, Hosting, Domain, dan solusi IoT",
+  "Chatbot AI AS.NET Assistant untuk menjawab pertanyaan pengguna mengenai layanan perusahaan",
+  "Antarmuka chatbot interaktif yang terintegrasi langsung ke dalam website",
+  "Navigasi website yang terstruktur untuk memudahkan pengguna menemukan informasi",
+  "Desain responsif yang dapat diakses melalui desktop maupun perangkat mobile",
+],
+screenshots: [AS1, AS2],
+link: "#adi-sanggoro-website",
   },
   // Tambahkan proyek lain seperti sebelumnyaaaa
 ]
