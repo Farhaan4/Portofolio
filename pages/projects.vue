@@ -105,7 +105,7 @@ import { reactive } from "vue"
 import ikan1 from '@/assets/images/LogoIkan.png'
 import ikan2 from '@/assets/images/home.jpeg'
 import ikan3 from '@/assets/images/result.jpeg'
-import ikan4 from '@/assets/images/history.jpeg'
+import ikan4 from '@/assets/images/History.jpeg'
 import ikan5 from '@/assets/images/resep.jpeg'
 import ikan6 from '@/assets/images/artikel.jpg'
 import pacu1 from '@/assets/images/Game_Logo_Final.png'
