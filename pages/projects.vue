@@ -102,7 +102,7 @@
 import { reactive } from "vue"
 
 // Import gambar lokal
-import ikan1 from '@/assets/images/logoIkan.png'
+import ikan1 from '@/assets/images/LogoIkan.png'
 import ikan2 from '@/assets/images/home.jpeg'
 import ikan3 from '@/assets/images/result.jpeg'
 import ikan4 from '@/assets/images/history.jpeg'
