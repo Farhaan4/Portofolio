@@ -1,12 +1,12 @@
 <template>
   <section
-    class="max-w-6xl mx-auto px-6 py-20 space-y-20 bg-gradient-to-b from-blue-50 to-white rounded-3xl shadow-lg"
+    class="max-w-6xl mx-auto px-4 py-12 sm:px-6 sm:py-20 space-y-12 sm:space-y-20 bg-gradient-to-b from-blue-50 to-white sm:rounded-3xl shadow-lg"
     aria-label="Bagian About Farhan"
   >
     <!-- Header About dengan Gradient Text -->
     <header class="text-center mb-16">
       <h2
-        class="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-400 mb-6 animate-fade-slide-up"
+        class="text-3xl sm:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-400 mb-6 animate-fade-slide-up"
         tabindex="0"
       >
         Tentang Saya
@@ -24,11 +24,11 @@
 
     <!-- Foto dengan efek shadow glow -->
     <div
-      class="flex flex-col md:flex-row items-center gap-12 md:gap-24"
+      class="flex flex-col md:flex-row items-center gap-8 md:gap-24"
       aria-label="Foto dan deskripsi singkat"
     >
       <div
-        class="w-56 h-56 rounded-full overflow-hidden shadow-xl shadow-blue-400/50 hover:shadow-blue-600/70 transform transition-all duration-300 hover:scale-110 cursor-pointer"
+        class="w-48 h-48 sm:w-56 sm:h-56 shrink-0 rounded-full overflow-hidden shadow-xl shadow-blue-400/50 hover:shadow-blue-600/70 transform transition-all duration-300 hover:scale-110 cursor-pointer"
         tabindex="0"
         aria-label="Foto Farhan"
       >
@@ -55,14 +55,14 @@
 
     <!-- Cards Keahlian -->
     <div
-      class="grid md:grid-cols-3 gap-12 max-w-5xl mx-auto"
+      class="grid md:grid-cols-3 gap-6 sm:gap-12 max-w-5xl mx-auto"
       aria-label="Detail keahlian dan pengalaman"
     >
       <article
-        class="flex items-start gap-6 bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition"
+        class="flex items-start gap-4 sm:gap-6 bg-white rounded-2xl p-5 sm:p-6 shadow-md hover:shadow-lg transition"
         tabindex="0"
       >
-        <div class="flex items-center justify-center w-16 h-16 bg-blue-100 rounded-full text-blue-600 text-5xl">
+        <div class="flex shrink-0 items-center justify-center w-14 h-14 sm:w-16 sm:h-16 bg-blue-100 rounded-full text-blue-600 text-4xl sm:text-5xl">
           <Icon name="mdi:school" />
         </div>
         <div>
@@ -76,10 +76,10 @@
 
 
       <article
-        class="flex items-start gap-6 bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition"
+        class="flex items-start gap-4 sm:gap-6 bg-white rounded-2xl p-5 sm:p-6 shadow-md hover:shadow-lg transition"
         tabindex="0"
       >
-        <div class="flex items-center justify-center w-16 h-16 bg-blue-100 rounded-full text-blue-600 text-5xl">
+        <div class="flex shrink-0 items-center justify-center w-14 h-14 sm:w-16 sm:h-16 bg-blue-100 rounded-full text-blue-600 text-4xl sm:text-5xl">
           <Icon name="mdi:lightbulb-on-outline" />
         </div>
         <div>
@@ -94,14 +94,14 @@
 
     <!-- Tombol aksi dengan efek shadow dan scale -->
     <div
-      class="flex justify-center gap-8 mt-16"
+      class="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-8 mt-12 sm:mt-16"
       aria-label="Tombol unduh CV dan LinkedIn"
     >
 
 <a
   href="/files/cvfarhann.pdf"
   download
-  class="px-10 py-3 bg-blue-600 text-white rounded-full font-semibold shadow-lg hover:shadow-xl hover:bg-blue-700 transition transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-blue-300"
+  class="px-6 sm:px-10 py-3 text-center bg-blue-600 text-white rounded-full font-semibold shadow-lg hover:shadow-xl hover:bg-blue-700 transition transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-blue-300"
   tabindex="0"
   aria-label="Unduh CV Farhan"
 >
@@ -113,7 +113,7 @@
         href="https://linkedin.com/in/Farhan ."
         target="_blank"
         rel="noopener noreferrer"
-        class="px-10 py-3 border-2 border-blue-600 text-blue-600 rounded-full font-semibold shadow hover:bg-blue-50 transition transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-blue-300"
+        class="px-6 sm:px-10 py-3 text-center border-2 border-blue-600 text-blue-600 rounded-full font-semibold shadow hover:bg-blue-50 transition transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-blue-300"
         tabindex="0"
         aria-label="Kunjungi profil LinkedIn Farhan"
       >
@@ -123,7 +123,7 @@
         href="https://www.figma.com/files/team/1280427529740062167/recents-and-sharing?fuid=1280427525990563829"
         target="_blank"
         rel="noopener noreferrer"
-        class="px-10 py-3 border-2 border-blue-600 text-blue-600 rounded-full font-semibold shadow hover:bg-blue-50 transition transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-blue-300"
+        class="px-6 sm:px-10 py-3 text-center border-2 border-blue-600 text-blue-600 rounded-full font-semibold shadow hover:bg-blue-50 transition transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-blue-300"
         tabindex="0"
         aria-label="Kunjungi  figma "
       >
