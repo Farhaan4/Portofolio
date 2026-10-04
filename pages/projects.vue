@@ -17,7 +17,10 @@
           <img
             :src="project.screenshots[0]"
             :alt="project.title"
-            class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+            :class="[
+              'w-full h-full transition-transform duration-500 hover:scale-110',
+              project.cardImageFit === 'contain' ? 'object-contain bg-white p-2' : 'object-cover',
+            ]"
             loading="lazy"
           />
         </div>
@@ -129,6 +132,14 @@ import undangan2 from '@/assets/images/undangan2.png'
 import undangan3 from '@/assets/images/undangan3.png'
 import undangan4 from '@/assets/images/undangan4.png'
 import undangan5 from '@/assets/images/undangan5.png'
+import Logo_cocopeat_1 from '@/assets/images/Logo_cocopeat_1.jpg'
+import Logo_cocopeat_2 from '@/assets/images/Logo_cocopeat_2.png'
+import Logo_cocopeat_3 from '@/assets/images/Logo_cocopeat_3.png'
+import logo1 from '@/assets/images/logo1.jpg'
+import logo2 from '@/assets/images/logo2.jpg'
+import logo3 from '@/assets/images/logo3.jpg'
+import logo4 from '@/assets/images/Logo4.jpg'
+
 
 
 
@@ -238,6 +249,34 @@ features: [
 ],
 screenshots: [AS1, AS2],
 link: "#adi-sanggoro-website",
+  },
+
+  {
+  title: "Logo Nawasena Cocopeat",
+cardImageFit: "contain",
+description: "Membuat logo untuk Nawasena Cocopeat menggunakan adobe illustrator, sebuah perusahaan yang bergerak di bidang produksi cocopeat saat magang di pt teknologi mulia sejahtera cemerlang",
+longDescription: "Logo Nawasena Cocopeat dirancang untuk memperkenalkan identitas visual perusahaan yang bergerak di bidang produksi cocopeat. Desain logo mencerminkan nilai-nilai perusahaan seperti kualitas, inovasi, dan keberlanjutan.",
+features: [
+  "Logo yang mencerminkan identitas perusahaan Nawasena Cocopeat",
+  "Desain yang sederhana namun mudah diingat dan dikenali",
+  "Penggunaan warna dan bentuk yang sesuai dengan citra perusahaan",
+  "Logo dapat digunakan untuk berbagai media promosi dan branding perusahaan",
+  ],
+screenshots: [Logo_cocopeat_1, Logo_cocopeat_2, Logo_cocopeat_3],
+link: "#nawasena-cocopeat-logo",
+  },
+
+  {
+  title: "adobe illustrator",
+cardImageFit: "contain",
+description: "Membuat logo ",
+longDescription: "membuat logo menggunakan adobe illustrator untuk memperdalam skill adobe illustrator",
+features: [
+  "belajar membuat logo menggunakan adobe illustrator",
+  
+  ],
+screenshots: [logo1, logo2, logo3,logo4],
+link: "#logo",
   },
   // Tambahkan proyek lain seperti sebelumnyaaaa
 ]
