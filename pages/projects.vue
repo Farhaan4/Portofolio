@@ -48,14 +48,25 @@
       <h3 class="text-2xl sm:text-3xl font-bold mb-6 text-blue-700">{{ project.title }}</h3>
 
       <div class="flex flex-col md:flex-row gap-8">
-        <!-- Galeri gambar -->
+        <!-- Galeri gambar dan video -->
         <div class="md:w-1/3 flex flex-col items-center">
           <img
+            v-if="!isVideo(project.screenshots[currentScreenshot[index]])"
             :src="project.screenshots[currentScreenshot[index]]"
             :alt="`Screenshot ${currentScreenshot[index] + 1} dari ${project.title}`"
             class="w-full max-h-[70svh] md:max-h-96 rounded-lg bg-white object-contain shadow-md"
             loading="lazy"
           />
+          <video
+            v-else
+            :src="project.screenshots[currentScreenshot[index]]"
+            class="w-full max-h-[70svh] md:max-h-96 rounded-lg bg-black object-contain shadow-md"
+            controls
+            preload="metadata"
+            :aria-label="`Video ${currentScreenshot[index] + 1} dari ${project.title}`"
+          >
+            Browser Anda tidak mendukung pemutaran video.
+          </video>
           <div class="mt-4 flex justify-between gap-2 w-full px-0 sm:px-6">
             <button
               class="px-4 py-1 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300"
@@ -139,9 +150,6 @@ import logo1 from '@/assets/images/logo1.jpg'
 import logo2 from '@/assets/images/logo2.jpg'
 import logo3 from '@/assets/images/logo3.jpg'
 import logo4 from '@/assets/images/Logo4.jpg'
-
-
-
 
 const projects = [
   {
@@ -278,6 +286,20 @@ features: [
 screenshots: [logo1, logo2, logo3,logo4],
 link: "#logo",
   },
+
+  {
+  title: "design ",
+cardImageFit: "contain",
+description: "Membuat design ",
+longDescription: "membuat design menggunakan ai",
+features: [
+  "belajar membuat design poster dan video menggunakan ai",
+  
+  ],
+  // Simpan file di public/images agar bisa dipanggil langsung dari halaman.
+  screenshots: ['/images/design1.png', '/images/design2.mp4', '/images/design3.mp4'],
+link: "#design",
+  },
   // Tambahkan proyek lain seperti sebelumnyaaaa
 ]
 
@@ -311,6 +333,10 @@ function nextScreenshot(projectIndex) {
   if (currentScreenshot[projectIndex] < projects[projectIndex].screenshots.length - 1) {
     currentScreenshot[projectIndex] += 1
   }
+}
+
+function isVideo(media) {
+  return /\.(mp4|webm|ogg)(?:\?.*)?$/i.test(media)
 }
 </script>
 
