@@ -150,6 +150,19 @@ import logo1 from '@/assets/images/logo1.jpg'
 import logo2 from '@/assets/images/logo2.jpg'
 import logo3 from '@/assets/images/logo3.jpg'
 import logo4 from '@/assets/images/Logo4.jpg'
+import logo5 from '@/assets/images/Logo5.jpg'
+import design1 from '@/assets/images/design1.png'
+import design2 from '@/assets/images/design2.mp4'
+import design3 from '@/assets/images/design3.mp4'
+import lunara1 from '@/assets/images/lunara1.png'
+import lunara2 from '@/assets/images/lunara2.png'
+import lunara3 from '@/assets/images/lunara3.png'
+import lunara4 from '@/assets/images/lunara4.png'
+import lunara5 from '@/assets/images/lunara5.png'
+import lunara6 from '@/assets/images/lunara6.png'
+import lunara7 from '@/assets/images/lunara7.png'
+import lunara8 from '@/assets/images/lunara8.png'
+import lunara9 from '@/assets/images/lunara9.png'   
 
 const projects = [
   {
@@ -274,6 +287,21 @@ screenshots: [Logo_cocopeat_1, Logo_cocopeat_2, Logo_cocopeat_3],
 link: "#nawasena-cocopeat-logo",
   },
 
+{
+  title: "Website Lunara (Pelacak Siklus Menstruasi)",
+  cardImageFit: "cover",
+  description: "Membuat aplikasi web pelacak siklus menstruasi dan edukasi kesehatan berbahasa Indonesia menggunakan Next.js, Tailwind CSS, dan Supabase sebagai proyek freelance.",
+  longDescription: "Lunara adalah aplikasi web yang membantu pengguna mencatat siklus menstruasi, mengenali pola tubuhnya, dan belajar tentang kesehatan menstruasi dengan cara yang tenang dan ramah. Aplikasi ini dibangun dengan Next.js dan TypeScript, memakai Supabase (PostgreSQL) untuk autentikasi dan penyimpanan data, serta Row Level Security agar data setiap pengguna terisolasi. Tampilannya responsif untuk ponsel maupun desktop, dapat dipasang sebagai PWA, dan di-deploy melalui Vercel.",
+  features: [
+    "Pencatatan harian (aliran, nyeri, suasana hati, gejala) dan kalender siklus dengan penanda fase",
+    "Cincin Siklus, perkiraan haid berikutnya, serta halaman Wawasan berisi grafik tren dan pola gejala",
+    "Modul edukasi interaktif: jalur belajar, kartu mitos vs fakta, glosarium, dan kuis",
+    "Fitur privasi: Mode Diskret dengan PIN, ekspor data (JSON/CSV), hapus akun, dan ringkasan PDF untuk konsultasi",
+  ],
+  screenshots: [lunara1, lunara2, lunara3, lunara4, lunara5, lunara6, lunara7, lunara8,lunara9],
+  link: "#lunara-web",
+},
+
   {
   title: "adobe illustrator",
 cardImageFit: "contain",
@@ -283,7 +311,7 @@ features: [
   "belajar membuat logo menggunakan adobe illustrator",
   
   ],
-screenshots: [logo1, logo2, logo3,logo4],
+screenshots: [logo1, logo2, logo3,logo4,logo5],
 link: "#logo",
   },
 
@@ -296,8 +324,7 @@ features: [
   "belajar membuat design poster dan video menggunakan ai",
   
   ],
-  // Simpan file di public/images agar bisa dipanggil langsung dari halaman.
-  screenshots: ['/images/design1.png', '/images/design2.mp4', '/images/design3.mp4'],
+  screenshots: [design1, design2, design3],
 link: "#design",
   },
   // Tambahkan proyek lain seperti sebelumnyaaaa
