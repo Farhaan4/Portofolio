@@ -1,22 +1,22 @@
 {
-  "_Ca88DO2O.js": {
+  "_BgE5mtbS.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Ca88DO2O.js",
-    "name": "v3",
+    "file": "BgE5mtbS.js",
+    "name": "nuxt-link",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_DaA16ppN.js": {
+  "_DXCH6Tr3.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DaA16ppN.js",
-    "name": "nuxt-link",
+    "file": "DXCH6Tr3.js",
+    "name": "v3",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -215,6 +215,76 @@
     "file": "logo3.CWo6egsQ.jpg",
     "src": "assets/images/logo3.jpg"
   },
+  "assets/images/logo5.jpg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/jpeg",
+    "file": "logo5.DsJSHSg7.jpg",
+    "src": "assets/images/logo5.jpg"
+  },
+  "assets/images/lunara1.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "lunara1.C2AhQr1G.png",
+    "src": "assets/images/lunara1.png"
+  },
+  "assets/images/lunara2.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "lunara2.BbljzaW6.png",
+    "src": "assets/images/lunara2.png"
+  },
+  "assets/images/lunara3.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "lunara3.DQ99devP.png",
+    "src": "assets/images/lunara3.png"
+  },
+  "assets/images/lunara4.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "lunara4.pszotD9E.png",
+    "src": "assets/images/lunara4.png"
+  },
+  "assets/images/lunara5.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "lunara5.Dy_rV0XM.png",
+    "src": "assets/images/lunara5.png"
+  },
+  "assets/images/lunara6.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "lunara6.C89_6rXT.png",
+    "src": "assets/images/lunara6.png"
+  },
+  "assets/images/lunara7.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "lunara7.hJDpv17g.png",
+    "src": "assets/images/lunara7.png"
+  },
+  "assets/images/lunara8.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "lunara8.CZKt4oCI.png",
+    "src": "assets/images/lunara8.png"
+  },
+  "assets/images/lunara9.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "lunara9.BKPYHyTj.png",
+    "src": "assets/images/lunara9.png"
+  },
   "assets/images/profil2.png": {
     "resourceType": "image",
     "prefetch": true,
@@ -297,13 +367,13 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BJrroxR-.js",
+    "file": "DgrFTaV3.js",
     "name": "default",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_DaA16ppN.js"
+      "_BgE5mtbS.js"
     ],
     "css": []
   },
@@ -318,7 +388,7 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BpQcp25F.js",
+    "file": "NPwHKIU3.js",
     "name": "index",
     "src": "node_modules/@nuxt/icon/dist/runtime/components/index.js",
     "isDynamicEntry": true,
@@ -331,14 +401,14 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CUk9ascF.js",
+    "file": "D7OYy_Qb.js",
     "name": "error-404",
     "src": "node_modules/nuxt/dist/app/components/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_DaA16ppN.js",
+      "_BgE5mtbS.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_Ca88DO2O.js"
+      "_DXCH6Tr3.js"
     ],
     "css": []
   },
@@ -353,13 +423,13 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BlvdkW3u.js",
+    "file": "BoOb1d9c.js",
     "name": "error-500",
     "src": "node_modules/nuxt/dist/app/components/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_Ca88DO2O.js"
+      "_DXCH6Tr3.js"
     ],
     "css": []
   },
@@ -374,7 +444,7 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "qa-N2uQ7.js",
+    "file": "D8JUCEiT.js",
     "name": "entry",
     "src": "node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -390,7 +460,7 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "vaeV0EKo.js",
+    "file": "DGIC7uHd.js",
     "name": "about",
     "src": "pages/about.vue",
     "isDynamicEntry": true,
@@ -413,7 +483,7 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "b-5HQxoA.js",
+    "file": "CQZ3v77X.js",
     "name": "contact",
     "src": "pages/contact.vue",
     "isDynamicEntry": true,
@@ -433,12 +503,12 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DIpdKFIn.js",
+    "file": "CR9bpnJ5.js",
     "name": "index",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_DaA16ppN.js",
+      "_BgE5mtbS.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "css": [],
@@ -463,7 +533,7 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "C7sbbjbe.js",
+    "file": "DFW69bJD.js",
     "name": "projects",
     "src": "pages/projects.vue",
     "isDynamicEntry": true,
@@ -506,13 +576,23 @@
       "logo2.BKzs2t9w.jpg",
       "logo3.CWo6egsQ.jpg",
       "Logo4.mZUS_vRR.jpg",
+      "logo5.DsJSHSg7.jpg",
       "design1.DHjXx2gU.png",
       "design2.CzomHivw.mp4",
-      "design3.DVSMKcoB.mp4"
+      "design3.DVSMKcoB.mp4",
+      "lunara1.C2AhQr1G.png",
+      "lunara2.BbljzaW6.png",
+      "lunara3.DQ99devP.png",
+      "lunara4.pszotD9E.png",
+      "lunara5.Dy_rV0XM.png",
+      "lunara6.C89_6rXT.png",
+      "lunara7.hJDpv17g.png",
+      "lunara8.CZKt4oCI.png",
+      "lunara9.BKPYHyTj.png"
     ]
   },
-  "projects.0M0jTrrD.css": {
-    "file": "projects.0M0jTrrD.css",
+  "projects.BKU7QkRd.css": {
+    "file": "projects.BKU7QkRd.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
@@ -721,6 +801,12 @@
     "prefetch": true,
     "mimeType": "image/jpeg"
   },
+  "logo5.DsJSHSg7.jpg": {
+    "file": "logo5.DsJSHSg7.jpg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/jpeg"
+  },
   "design1.DHjXx2gU.png": {
     "file": "design1.DHjXx2gU.png",
     "resourceType": "image",
@@ -736,5 +822,59 @@
     "file": "design3.DVSMKcoB.mp4",
     "resourceType": "video",
     "prefetch": true
+  },
+  "lunara1.C2AhQr1G.png": {
+    "file": "lunara1.C2AhQr1G.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  },
+  "lunara2.BbljzaW6.png": {
+    "file": "lunara2.BbljzaW6.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  },
+  "lunara3.DQ99devP.png": {
+    "file": "lunara3.DQ99devP.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  },
+  "lunara4.pszotD9E.png": {
+    "file": "lunara4.pszotD9E.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  },
+  "lunara5.Dy_rV0XM.png": {
+    "file": "lunara5.Dy_rV0XM.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  },
+  "lunara6.C89_6rXT.png": {
+    "file": "lunara6.C89_6rXT.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  },
+  "lunara7.hJDpv17g.png": {
+    "file": "lunara7.hJDpv17g.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  },
+  "lunara8.CZKt4oCI.png": {
+    "file": "lunara8.CZKt4oCI.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  },
+  "lunara9.BKPYHyTj.png": {
+    "file": "lunara9.BKPYHyTj.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
   }
 }
